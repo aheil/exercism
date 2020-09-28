@@ -34,6 +34,5 @@ public static class ResistorColor
 
     public static int ColorCode(string color) => (int)colors.GetValueOrDefault(color.ToLower());
 
-    public static string[] Colors() => colors.Keys.ToArray<string>();
-   
+    public static string[] Colors() => colors.Keys.ToArray(); 
 }
